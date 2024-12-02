@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+body {
+    background-image: url(../img/Distribuidora.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.contenedor-todo {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.caja-trasera {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background-color: rgba(91, 255, 219, 0.589);
+    position: relative;
+    top: 40px;
+}
+
+.caja-trasera div {
+    margin: 100px 40px;
+    transition: all 500ms;
+}
+
+.caja-trasera div button {
+    margin-top: 30px;
+}
+
+.caja-trasera div h3 {
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.caja-trasera button {
+    padding: 10px 40px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s;
+}
+
+.caja-trasera button:hover {
+    background-color: #fff;
+    color: rgb(69, 226, 192);
+}
+
+/***** FORMULARIOS *******/
+
+.contenedor-login-signup {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 380px;
+    position: relative;
+    top: -147px;
+    left: 10px;
+    transition: left 0.6s cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+
+.contenedor-login-signup form {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 20px;
+
+}
+
+.contenedor-login-signup form h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(69, 226, 192);
+}
+
+.contenedor-login-signup form input {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 16px;
+    outline: none;
+}
+
+.contenedor-login-signup form button {
+    padding: 5px 40px;
+    margin-top: 40px;
+    border: 2px solid rgba(91, 255, 219, 0.5);
+    font-size: 14px;
+    background-color: rgba(91, 255, 219);
+    cursor: pointer;
+    outline: none;
+    transition: all .3s;
+}
+
+.contenedor-login-signup form button:hover {
+    background-color: #fff;
+    color: rgb(69, 226, 192);
+}
+
+.login {
+    opacity: 1;
+    display: block;
+}
+
+.signup {
+    display: none;
+}
+
+/***** Responsive design *****/
+
+@media screen and (max-width: 800px) {
+    main {
+        margin-top: 50px;
+    }
+
+    .caja-trasera {
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .caja-trasera div {
+        margin: 0px;
+        position: absolute;
+    }
+
+    /***** FORMULARIOS *****/
+
+    .contenedor-login-signup {
+        top: -16px;
+        margin: auto;
+    }
+
+    .contenedor-login-signup form {
+        position: relative;
+    }
+}

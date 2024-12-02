@@ -1,0 +1,49 @@
+
+[
+        
+        {
+            "id": "producto-01",
+            "titulo": "Aceite Natura",
+            "imagen": "../img/productos/01.jpg",
+            "categoria": {
+                "nombre": "Aceites",
+                "id": "aceites"
+            },
+            "precio": 2000,
+            "cantidad": 1
+        },
+        {
+            "id": "producto-02",
+            "titulo": "Fideos Terrabusi",
+            "imagen": "../img/productos/02.jpg",
+            "categoria": {
+                "nombre": "Fideos",
+                "id": "fideos"
+            },
+            "precio": 1000,
+            "cantidad": 1
+        },
+        {
+            "id": "producto-03",
+            "titulo": "Sierra de los Padres Manzana",
+            "imagen": "../img/productos/03.jpeg",
+            "categoria": {
+                "nombre": "Bebidas",
+                "id": "bebidas"
+            },
+            "precio": 950,
+            "cantidad": 1
+        },
+        {
+            "id": "producto-04",
+            "titulo": "Pañales Duffy",
+            "imagen": "../img/productos/04.jpg",
+            "categoria": {
+                "nombre": "Pañales",
+                "id": "pañales"
+            },
+            "precio": 6000,
+            "cantidad": 1
+        }
+        
+]
